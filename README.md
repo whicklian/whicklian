@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Fullstack+Developer;CS+Student+@+MMUST;GDG+Community+Member;Mirembe!+Amosi!+Karibu!)](https://git.io/typing-svg)
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Fullstack+Developer;CS+Student+@+MMUST;GDG+Community+Member;Mirembe!+Amosi!+Karibu!" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=whicklian&label=PROFILE+VIEWS&color=36BCF7&style=flat" alt="whicklian" />
+  <img src="https://komarev.com/ghpvc/?username=whicklian&label=PROFILE+VIEWS&color=36BCF7&style=flat" alt="visitor count" />
 </p>
 
 ---
