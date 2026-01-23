@@ -3,13 +3,17 @@
 </p>
 
 <p align="center">
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Fullstack+Developer;CS+Student+@+MMUST;GDG+Community+Member;Mirembe!+Amosi!+Karibu!)](https://git.io/typing-svg)
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=whicklian&label=PROFILE+VIEWS&color=36BCF7&style=flat" alt="whicklian" />
 </p>
 
 ---
 
 ### 🧠 About Me  
-I'm a **Computer Science student at Masinde Muliro University of Science and Technology (MMUST)**. I thrive at the intersection of logical backend architecture and creative frontend design.
+I'm a **Fullstack Developer** and a **Computer Science student at Masinde Muliro University of Science and Technology (MMUST)**. I thrive at the intersection of logical backend architecture and creative frontend design.
 
 * 🏫 **Education:** BSc. Computer Science @ MMUST.
 * 👥 **Community:** Proud member of **GDG (Google Developer Groups)**, staying at the forefront of Google technologies.
