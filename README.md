@@ -1,9 +1,10 @@
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=36BCF7&height=250&section=header&text=Whicklian%20Nerio&fontSize=70&animation=fadeIn&fontAlignY=35" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Fullstack+Developer;CS+Student+@+MMUST;GDG+Community+Member;Mirembe!+Amosi!+Karibu!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&height=50&size=28&lines=Fullstack+Developer;CS+Student+@+MMUST;GDG+Community+Member;Mirembe!+Amosi!+Karibu!" alt="Typing SVG" />
 </p>
 
 <p align="center">
