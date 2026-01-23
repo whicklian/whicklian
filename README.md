@@ -1,51 +1,57 @@
-# 👋 Hi, I'm Whicklian Nerio.
-### 💻 Python Developer | Web Enthusiast  
+# 👋 Hi, I'm Whicklian Nerio
+### 🎓 CS Student at MMUST | 🚀 Fullstack Developer | 💠 GDG Member
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=I'm+Whicklian+Nerio;Software+Developer;Open+Source+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Fullstack+Developer;CS+Student+@+MMUST;GDG+Community+Member;Building+with+Python+&amp;+Modern+Web)](https://git.io/typing-svg)
 
 ---
- 
+
 ### 🧠 About Me  
-I'm **Whicklian Nerio**, a developer with a passion for **Python** and front-end design.  
+I'm a **Computer Science student at Masinde Muliro University of Science and Technology (MMUST)**. I thrive at the intersection of logical backend architecture and creative frontend design.
 
-🚀 Focused on building clean, responsive, and user-friendly web interfaces.  
-🧩 Interested in blending creativity with technology — from automation scripts to modern web design.  
-🌱 Constantly improving my skill set and experimenting with new tools.  
-💬 Open to collaborations, freelance projects, and open-source contributions.  
- 
----
-
-### 🛠️ Tech Stack  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+* 🏫 **Education:** BSc. Computer Science @ MMUST.
+* 👥 **Community:** Proud member of **GDG (Google Developer Groups)**, staying at the forefront of Google technologies.
+* 💻 **Expertise:** End-to-end web development with a focus on clean, scalable Python backends.
+* ⚡ **Goal:** Leveraging technology to solve real-world problems through open-source collaboration.
 
 ---
-  
+
+### 🛠️ Tech Stack & Toolbox
+
+| Category | Skills & Tools |
+| :--- | :--- |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white) |
+
+---
+
+### 🤝 Community & Involvement
+* **GDG MMUST:** Active member participating in workshops, hackathons, and tech meetups.
+* **Open Source:** Passionate about contributing to projects that improve developer workflows.
+
+---
+
 ### 📊 My GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=whicklian&show_icons=true&theme=tokyonight)
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=whicklian&show_icons=true&theme=tokyonight&count_private=true" width="400" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=whicklian&layout=compact&theme=tokyonight" width="300" />
+</p>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=whicklian&layout=compact&theme=tokyonight)
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=whicklian&theme=tokyonight&column=4" width="700" />
+</p>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=whicklian&theme=tokyonight)
-
-![trophy](https://github-profile-trophy.vercel.app/?username=whicklian&theme=tokyonight)
-
-
-
----
-
-
-
----
-
-### 🔗 Connect With Me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/whicklian-nerio-828681393)
-[![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/whicklian)
-[![Email](https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:neriowhicklian@gmail.com)
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=whicklian&theme=tokyonight" width="700" />
+</p>
 
 ---
 
-✨ *“Code is like magic — and I’m here to make it sparkle.”* ✨
+### 🔗 Connect With Me
+[<img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/whicklian-nerio-828681393)
+[<img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white">](https://github.com/whicklian)
+[<img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white">](mailto:neriowhicklian@gmail.com)
+
+---
+
+✨ *“From MMUST to the World — Code, Create, Collaborate.”* ✨
