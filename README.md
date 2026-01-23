@@ -5,13 +5,15 @@
 
 ---
 
-### 🧠 About Me  
+### 🌍 Karibu! | Welcome!
+> **Mirembe!** (Luhya) | **Amosi!** (Dholuo) | **Habari!** (Swahili) | **print("Hello, World!")** (Python)
+
 I'm a **Computer Science student at Masinde Muliro University of Science and Technology (MMUST)**. I thrive at the intersection of logical backend architecture and creative frontend design.
 
 * 🏫 **Education:** BSc. Computer Science @ MMUST.
 * 👥 **Community:** Proud member of **GDG (Google Developer Groups)**, staying at the forefront of Google technologies.
 * 💻 **Expertise:** End-to-end web development with a focus on clean, scalable Python backends.
-* ⚡ **Goal:** Leveraging technology to solve real-world problems through open-source collaboration.
+* 🌱 **Current Learning:** Diving into Cloud Native technologies and System Design.
 
 ---
 
@@ -21,7 +23,14 @@ I'm a **Computer Science student at Masinde Muliro University of Science and Tec
 | :--- | :--- |
 | **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) |
-| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white) |
+| **DevOps & Cloud** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) |
+
+---
+
+### 🔭 My Learning Path
+- ☁️ **Cloud Computing:** Exploring Google Cloud Platform (GCP) services.
+- 🏗️ **Architecture:** Understanding Microservices and API optimization.
+- 🎨 **UI/UX:** Perfecting responsive design and user-centric interfaces.
 
 ---
 
@@ -35,10 +44,6 @@ I'm a **Computer Science student at Masinde Muliro University of Science and Tec
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=whicklian&show_icons=true&theme=tokyonight&count_private=true" width="400" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=whicklian&layout=compact&theme=tokyonight" width="300" />
-</p>
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=whicklian&theme=tokyonight&column=4" width="700" />
 </p>
 
 <p align="center">
