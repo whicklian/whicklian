@@ -59,7 +59,7 @@ I'm a **Fullstack Developer** and a **Computer Science student at Masinde Muliro
 ---
 
 ### 🔗 Connect With Me
-[<img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/whicklian-nerio-828681393)
+[<img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/reagan-omondi-828681393)
 [<img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white">](https://github.com/whicklian)
 [<img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white">](mailto:neriowhicklian@gmail.com)
 
