@@ -90,7 +90,7 @@ https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoCol
 
 </div>
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 🚀 FEATURED PROJECTS 🚀 --><!-- ═══════════════════════════════════════════════════════════════════ --><h3 align="center">🚀 &nbsp;Featured Projects</h3><p align="center"> <a href="https://github.com/whicklian?tab=repositories"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=whicklian&repo=whicklian&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF&text_color=c9d1d9" /> </a> <a href="https://github.com/whicklian?tab=repositories"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=whicklian&repo=whicklian&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF&text_color=c9d1d9" /> </a> </p>
-💡 Tip: Replace repo=whicklian above with your real repository names (2 cards look best side-by-side).
+
 
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 🔭 LEARNING PATH 🔭 --><!-- ═══════════════════════════════════════════════════════════════════ --><h3 align="center">🔭 &nbsp;Currently Exploring</h3><div align="center">
 ☁️ Cloud Computing	🏗️ Architecture	🎨 UI/UX
@@ -102,7 +102,7 @@ Kubernetes basics	System Design patterns	Accessibility (a11y)
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 🐍 CONTRIBUTION SNAKE 🐍 --><!-- ═══════════════════════════════════════════════════════════════════ --><h3 align="center">🐍 &nbsp;Watch My Contributions Get Eaten</h3><p align="center"> <img src="https://raw.githubusercontent.com/whicklian/whicklian/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" /> </p>
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 💬 DEV QUOTE 💬 --><!-- ═══════════════════════════════════════════════════════════════════ --><h3 align="center">💬 &nbsp;Dev Quote of the Day</h3><p align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" /> </p>
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 🎵 SPOTIFY NOW PLAYING 🎵 --><!-- ═══════════════════════════════════════════════════════════════════ --><h3 align="center">🎵 &nbsp;What I'm Listening To</h3><p align="center"> <a href="https://open.spotify.com/user/"> <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=false&bar_color=36bcf7&bar_color_cover=false" alt="Spotify Now Playing" /> </a> </p>
-💡 Replace YOUR_SPOTIFY_ID with your Spotify username, or delete this section if you don't want it.
+
 
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 📈 WEEKLY DEV STATS 📈 --><!-- ═══════════════════════════════════════════════════════════════════ --><h3 align="center">📈 &nbsp;Weekly Coding Stats</h3><!--START_SECTION:waka-->
 text
@@ -113,8 +113,8 @@ JavaScript   4 hrs 15 mins   ██████░░░░░░░░░░░
 HTML         2 hrs 30 mins   ████░░░░░░░░░░░░░░░░░░░   13.9%
 CSS          1 hr 45 mins    ███░░░░░░░░░░░░░░░░░░░░   9.8%
 Other        45 mins         █░░░░░░░░░░░░░░░░░░░░░░   4.1%
-<!--END_SECTION:waka-->
-💡 Optional: Set up WakaTime with the waka-readme action to auto-update this.
+
+
 
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 🤝 COMMUNITY 🤝 --><!-- ═══════════════════════════════════════════════════════════════════ --><h3 align="center">🤝 &nbsp;Community & Involvement</h3><div align="center">
 🌍 GDG MMUST — Active member participating in workshops, hackathons, and tech meetups.
@@ -132,7 +132,7 @@ Other        45 mins         █░░░░░░░░░░░░░░░░
 👥	Google Developer Groups Member
 🚀	Fullstack Projects Shipped
 </div>
-💡 Customize the table above with your real achievements.
+
 
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 🔗 CONNECT 🔗 --><!-- ═══════════════════════════════════════════════════════════════════ --><h3 align="center">🔗 &nbsp;Let's Connect</h3><p align="center"> <a href="https://www.linkedin.com/in/reagan-omondi-828681393" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/whicklian" target="_blank"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="mailto:neriowhicklian@gmail.com"> <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://twitter.com/" target="_blank"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /> </a> <a href="https://dev.to/" target="_blank"> <img src="https://img.shields.io/badge/DEV-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /> </a> <a href="https://wa.me/" target="_blank"> <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /> </a> </p><p align="center"> <i>💌 Open to freelance work, collaborations, and interesting conversations. Drop me a message!</i> </p>
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 🌊 FOOTER 🌊 --><!-- ═══════════════════════════════════════════════════════════════════ --><p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:36BCF7,100:6C63FF&height=140&section=footer&text=From%20MMUST%20to%20the%20World%20%E2%80%94%20Code%2C%20Create%2C%20Collaborate&fontSize=16&fontColor=ffffff&animation=twinkling" /> </p><!-- ═══════════════════════════════════════════════════════════════════ --><!-- ⭐ MADE WITH ❤️ BY WHICKLIAN --><!-- ═══════════════════════════════════════════════════════════════════ -->
