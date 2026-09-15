@@ -113,38 +113,7 @@ Kubernetes basics	System Design patterns	Accessibility (a11y)
 </div>
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 🔗 CONNECT 🔗 --><!-- ═══════════════════════════════════════════════════════════════════ --><h3 align="center">🔗 &nbsp;Let's Connect</h3><p align="center"> <a href="https://www.linkedin.com/in/reagan-omondi-828681393" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/whicklian" target="_blank"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="mailto:neriowhicklian@gmail.com"> <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://twitter.com/" target="_blank"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /> </a> <a href="https://dev.to/" target="_blank"> <img src="https://img.shields.io/badge/DEV-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /> </a> </p><p align="center"> <i>💌 Open to freelance work, collaborations, and interesting conversations. Drop me a message!</i> </p>
 <!-- ═══════════════════════════════════════════════════════════════════ --><!-- 🌊 FOOTER 🌊 --><!-- ═══════════════════════════════════════════════════════════════════ --><p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:36BCF7,100:6C63FF&height=140&section=footer&text=From%20MMUST%20to%20the%20World%20%E2%80%94%20Code%2C%20Create%2C%20Collaborate&fontSize=16&fontColor=ffffff&animation=twinkling" /> </p><!-- ═══════════════════════════════════════════════════════════════════ --><!-- ⭐ MADE WITH ❤️ BY WHICKLIAN ⭐ --><!-- ═══════════════════════════════════════════════════════════════════ -->
-text
 
----
-
-## 🐍 Bonus: Snake Animation Setup (3 Minutes)
-
-The snake animation requires a GitHub Action. Create this file in your **`whicklian/whicklian`** repo:
-
-**File path:** `.github/workflows/snake.yml`
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"   # runs every 12 hours
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Generate snake SVG
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.svg?palette=github-light
 
