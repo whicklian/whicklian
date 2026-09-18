@@ -1,12 +1,25 @@
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                     🌊  ANIMATED GRADIENT HEADER  🌊                  -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,50:6C63FF,100:36BCF7&height=300&section=header&text=Whicklian%20Nerio&fontSize=76&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Fullstack%20Developer%20%E2%80%A2%20CS%20Student%20%40%20MMUST%20%E2%80%A2%20GDG%20Member&descAlignY=58&descSize=18&descColor=e0e0e0" />
 </p>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                     ⌨️  ANIMATED TYPING  ⌨️                           -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
   <a href="https://github.com/whicklian">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Fullstack+Developer+%F0%9F%9A%80;CS+Student+%40+MMUST+%F0%9F%8E%93;GDG+Community+Member+%F0%9F%8C%8D;Python+%7C+Django+%7C+Flask+%F0%9F%90%8D;Mirembe!+Amosi!+Karibu!+%F0%9F%91%8B" alt="Typing SVG" />
   </a>
 </p>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                     🏅  BADGES ROW  🏅                                -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=whicklian&label=Profile%20Views&color=36BCF7&style=for-the-badge" alt="Profile Views"/>
@@ -17,6 +30,10 @@
 </p>
 
 <br>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                     🧠  ABOUT ME  🧠                                -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <img align="right" alt="Coding" width="340" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
 
@@ -33,7 +50,38 @@ learning:    Cloud Native • System Design • Microservices
 hobbies:     Hackathons • Open Source • Tech Meetups
 motto:       "From MMUST to the World — Code, Create, Collaborate."
 
+```
+
 ---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+Python        8 hrs 42 mins   ████████████░░░░░░░░░░░   48.5%
+JavaScript    4 hrs 15 mins   ██████░░░░░░░░░░░░░░░░░   23.7%
+HTML          2 hrs 30 mins   ████░░░░░░░░░░░░░░░░░░░   13.9%
+CSS           1 hr 45 mins    ███░░░░░░░░░░░░░░░░░░░░   9.8%
+Other         45 mins         █░░░░░░░░░░░░░░░░░░░░░░   4.1%
+
+```
+<!--END_SECTION:waka-->
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                     🤝 COMMUNITY 🤝                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <h3 align="center">🤝  Community & Involvement</h3>
 <div align="center">
@@ -43,6 +91,10 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 </div>
 
 ---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                     🏆 HIGHLIGHTS 🏆                                -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <h3 align="center">🏆  Highlights</h3>
 <div align="center">
@@ -54,6 +106,10 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 </div>
 
 ---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                     🔗 CONNECT 🔗                                   -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <h3 align="center">🔗  Let's Connect</h3>
 <p align="center">
@@ -80,6 +136,15 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
   <i>💌 Open to freelance work, collaborations, and interesting conversations. Drop me a message!</i>
 </p>
 
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                     🌊 FOOTER 🌊                                    -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:36BCF7,100:6C63FF&height=140&section=footer&text=From%20MMUST%20to%20the%20World%20%E2%80%94%20Code%2C%20Create%2C%20Collaborate&fontSize=16&fontColor=ffffff&animation=twinkling" />
 </p>
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ⭐ MADE WITH ❤️ BY WHICKLIAN                                       -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+```
