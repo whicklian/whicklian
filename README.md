@@ -21,11 +21,11 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=whicklian&label=Profile%20Views&color=36BCF7&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/whicklian?label=Followers&style=for-the-badge&color=6C63FF&logo=github&logoColor=white" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/whicklian?label=Stars&style=for-the-badge&color=36BCF7&logo=github&logoColor=white" alt="Stars" />
-  <img src="https://img.shields.io/badge/Focus-Fullstack-6C63FF?style=for-the-badge&logo=codeigniter&logoColor=white" alt="Focus" />
-  <img src="https://img.shields.io/badge/Open%20to-Collaborate-36BCF7?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to Collaborate" />
+  <img src="https://komarev.com/ghpvc/?username=whicklian&label=Profile%20Views&color=36BCF7&style=for-the-badge" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/whicklian?label=Followers&style=for-the-badge&color=6C63FF&logo=github&logoColor=white" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/whicklian?label=Stars&style=for-the-badge&color=36BCF7&logo=github&logoColor=white" alt="Stars"/>
+  <img src="https://img.shields.io/badge/Focus-Fullstack-6C63FF?style=for-the-badge&logo=codeigniter&logoColor=white" alt="Focus"/>
+  <img src="https://img.shields.io/badge/Open%20to-Collaborate-36BCF7?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to Collaborate"/>
 </p>
 
 <br>
