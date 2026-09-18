@@ -1,4 +1,3 @@
-```markdown
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,50:6C63FF,100:36BCF7&height=300&section=header&text=Whicklian%20Nerio&fontSize=76&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Fullstack%20Developer%20%E2%80%A2%20CS%20Student%20%40%20MMUST%20%E2%80%A2%20GDG%20Member&descAlignY=58&descSize=18&descColor=e0e0e0" />
 </p>
@@ -20,10 +19,6 @@
 <br>
 
 <img align="right" alt="Coding" width="340" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
-
-### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28">  About Me
-
-```yaml
 name:        Whicklian Nerio
 role:        Fullstack Developer
 education:   BSc. Computer Science @ MMUST
