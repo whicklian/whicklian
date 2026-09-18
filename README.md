@@ -260,13 +260,3 @@ Other         45 mins         █░░░░░░░░░░░░░░░�
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- ⭐ MADE WITH ❤️ BY WHICKLIAN                                       -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
