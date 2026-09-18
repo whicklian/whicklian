@@ -260,54 +260,6 @@ Other         45 mins         █░░░░░░░░░░░░░░░�
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- ⭐ MADE WITH ❤️ BY WHICKLIAN                                       -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-```
-
----
-
-## 🎯 What's New & Improved
-
-| Feature | Before | Now |
-|---------|--------|-----|
-| **Tech Stack** | ❌ Missing | ✅ 18 badges with proper logos |
-| **GitHub Stats** | ❌ Missing | ✅ Stats + Top Languages + Streak |
-| **Activity Graph** | ❌ Missing | ✅ Full contribution graph |
-| **Trophies** | ❌ Missing | ✅ GitHub Trophies showcase |
-| **Snake Animation** | ❌ Missing | ✅ Contribution snake |
-| **Dev Quote** | ❌ Missing | ✅ Daily quote widget |
-| **Dev Joke** | ❌ Missing | ✅ Random joke widget |
-| **Community** | Plain text | ✅ Clean table layout |
-| **Highlights** | Plain text | ✅ Centered badge-style |
-| **Badges** | Some broken links | ✅ All working & verified |
-
----
-
-## ⚙️ One-Time Setup for Snake Animation
-
-To make the **contribution snake** work, create `.github/workflows/snake.yml` in your profile repo:
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate Snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
