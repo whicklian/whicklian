@@ -67,15 +67,6 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 ---
 
----
-
----
-
----
-
----
-
-```text
 Python        8 hrs 42 mins   ████████████░░░░░░░░░░░   48.5%
 JavaScript    4 hrs 15 mins   ██████░░░░░░░░░░░░░░░░░   23.7%
 HTML          2 hrs 30 mins   ████░░░░░░░░░░░░░░░░░░░   13.9%
@@ -103,15 +94,3 @@ Other         45 mins         █░░░░░░░░░░░░░░░�
 👥 **Google Developer Groups Member**
 
 🚀 **Fullstack Projects Shipped**
-
----
-
----
-
----
-
----
-
-```
-
-```
