@@ -62,3 +62,56 @@ focus:       Clean, scalable Python backends + delightful UIs
 learning:    Cloud Native • System Design • Microservices
 hobbies:     Hackathons • Open Source • Tech Meetups
 motto:       "From MMUST to the World — Code, Create, Collaborate."
+
+```
+
+---
+
+---
+
+---
+
+---
+
+---
+
+```text
+Python        8 hrs 42 mins   ████████████░░░░░░░░░░░   48.5%
+JavaScript    4 hrs 15 mins   ██████░░░░░░░░░░░░░░░░░   23.7%
+HTML          2 hrs 30 mins   ████░░░░░░░░░░░░░░░░░░░   13.9%
+CSS           1 hr 45 mins    ███░░░░░░░░░░░░░░░░░░░░   9.8%
+Other         45 mins         █░░░░░░░░░░░░░░░░░░░░░░   4.1%
+
+```
+
+---
+
+| 🌍 **GDG MMUST** | Active member participating in workshops, hackathons, and tech meetups. |
+| --- | --- |
+| 💚 **Open Source** | Passionate about contributing to projects that improve developer workflows. |
+| 🎓 **Mentorship** | Helping junior devs at MMUST get started with Python & web development. |
+| 🚀 **Hackathons** | Regular participant in GDG & university hackathons. |
+
+---
+
+🥇 **GDG MMUST Hackathon Participant**
+
+🎓 **BSc. Computer Science — In Progress**
+
+🌱 **Active Open Source Contributor**
+
+👥 **Google Developer Groups Member**
+
+🚀 **Fullstack Projects Shipped**
+
+---
+
+---
+
+---
+
+---
+
+```
+
+```
