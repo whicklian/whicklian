@@ -310,7 +310,7 @@ Other         45 mins         █░░░░░░░░░░░░░░░�
   <a href="https://dev.to/whicklian" target="_blank">
     <img src="https://img.shields.io/badge/DEV-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="DEV" />
   </a>
-  <a href="https://wa.me/" target="_blank">
+  <a href="https://wa.me/0707848992" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
 </p>
