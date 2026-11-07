@@ -33,7 +33,7 @@
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                     🏅  BADGES ROW  🏅                                -->
+<!--                     🏅  REAL-TIME BADGES ROW  🏅                      -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
@@ -41,6 +41,7 @@
   <img src="https://img.shields.io/github/followers/whicklian?label=Followers&style=for-the-badge&color=6C63FF&logo=github&logoColor=white" alt="Followers"/>
   <img src="https://img.shields.io/github/stars/whicklian?label=Stars&style=for-the-badge&color=36BCF7&logo=github&logoColor=white" alt="Stars"/>
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fwhicklian&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&color=6C63FF&logo=git&logoColor=white" alt="Public Repos"/>
+  <img src="https://img.shields.io/github/last-commit/whicklian/whicklian?label=Profile%20Synced&style=for-the-badge&color=10b981&logo=githubactions&logoColor=white" alt="Last Synced"/>
   <a href="https://portfolio-frontend-ecru-kappa.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-Live-36BCF7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
@@ -51,7 +52,7 @@
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                     🧠  ABOUT ME & SYSTEM HUD  🧠                     -->
+<!--                     🧠  ABOUT ME & LIVE SYSTEM HUD  🧠                -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <img align="right" alt="Coding" width="340" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
@@ -73,24 +74,14 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <br clear="right"/>
 
-<div align="center">
+<!--START_SECTION:realtime_status-->
+<!--END_SECTION:realtime_status-->
 
-| ⚡ **Current Status** | 🎯 **Core Architecture** | 🌍 **Community Role** | 🚀 **Mission** |
-| :---: | :---: | :---: | :---: |
-| 🟢 Building Fullstack & AI/Data Systems | Python (Django/Flask) • React/TS • PostgreSQL | GDG MMUST & Data Science Track Lead | Turning real-world problems into production software |
-
-</div>
-
-<details>
-<summary><b>⚡ Click to expand: My Engineering Philosophy & Development Workflow</b></summary>
-<br>
-
-- **Backend-First Reliability:** Designing clean RESTful APIs, authentication pipelines, and resilient relational/NoSQL data models using **Python (Django, Flask)** and **Node.js**.
-- **Human-Centered Frontend:** Crafting responsive, accessible, and fast interfaces with **React, TypeScript, and Tailwind CSS**.
-- **Data-Driven Impact:** Empowering fellow students at **Masinde Muliro University of Science and Technology (MMUST)** through practical Data Science tracks, Jupyter workflows, and analytical problem-solving.
-- **Ship Early, Iterate Fast:** Deploying production-ready apps on **Vercel, Docker, and AWS** with automated CI/CD workflows.
-
-</details>
+<p align="center">
+  <a href="https://github.com/whicklian">
+    <img src="./assets/realtime-hud.svg" alt="Real-Time GitHub Telemetry HUD" width="100%" />
+  </a>
+</p>
 
 ---
 
@@ -133,7 +124,7 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 <!--              🔥  STREAKS, RATING & GITHUB ANALYTICS  📊               -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<h3 align="center">📊  GitHub Rating, Streaks & Live Telemetry</h3>
+<h3 align="center">📊  Real-Time GitHub Rating, Streaks & Analytics</h3>
 
 <!-- Row 1: Rating Card (Classic) + Global Percentile Rating Card (Extended) -->
 <p align="center">
@@ -210,45 +201,63 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                     💻  WAKA TIME  💻                                -->
+<!--                     💻  REAL-TIME LANGUAGE TELEMETRY  💻              -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<h3 align="center">💻  Weekly Coding Stats</h3>
+<h3 align="center">💻  Real-Time Coding & Language Telemetry</h3>
 
 <!--START_SECTION:waka-->
-```text
-⚡ Real-Time GitHub Language Telemetry (Across 22 Public Repositories • Synced 2026-11-07 19:14 EAT)
-──────────────────────────────────────────────────────────────────────────────────────────
-JavaScript         7 repos    (3769 KB)   ████████████████░░░░░░░░░    64.0%
-CSS                2 repos    (1343 KB)   ██████░░░░░░░░░░░░░░░░░░░    22.8%
-HTML               4 repos    ( 382 KB)   ██░░░░░░░░░░░░░░░░░░░░░░░     6.5%
-Jupyter Notebook   1 repo     ( 219 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     3.7%
-TypeScript         2 repos    ( 105 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     1.8%
-Python             1 repo     (  47 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     0.8%
-Java               1 repo     (  25 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     0.4%
-```
 <!--END_SECTION:waka-->
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                     🚀  FEATURED PROJECTS  🚀                         -->
+<!--                     🚀  LIVE REPOSITORIES & DEPLOYMENTS  🚀           -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<h3 align="center">🚀  Featured Shipped Projects & Tracks</h3>
+<h3 align="center">🚀  Live Repositories & Real-Time Deployment Status</h3>
+
+<!-- Dynamic Real-Time GitHub Repository Pin Cards -->
+<p align="center">
+  <a href="https://github.com/whicklian/DataScience_whicklian">
+    <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=whicklian&repo=DataScience_whicklian&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="DataScience_whicklian" />
+  </a>
+  <a href="https://github.com/whicklian/habit-island">
+    <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=whicklian&repo=habit-island&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="habit-island" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/whicklian/AfyaSync">
+    <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=whicklian&repo=AfyaSync&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="AfyaSync" />
+  </a>
+  <a href="https://github.com/whicklian/task-manager-api">
+    <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=whicklian&repo=task-manager-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="task-manager-api" />
+  </a>
+</p>
 
 <div align="center">
 
-| Project | Stack | Description | Live / Repo |
-| :--- | :---: | :--- | :---: |
-| 🌐 **Official Developer Portfolio** | `React` `Tailwind` `Vercel` | Interactive personal portfolio showcasing fullstack engineering projects, skills, and journey. | [🔗 Live Site](https://portfolio-frontend-ecru-kappa.vercel.app/) |
-| 🏝️ **Habit Island** | `TypeScript` `Frontend` | Gamified habit-building platform turning daily consistency into visual progress. | [🔗 Live App](https://habit-island-sand.vercel.app) • [📦 Repo](https://github.com/whicklian/habit-island) |
-| 🏥 **AfyaSync** | `JavaScript` `Fullstack` | Digital healthcare synchronization platform streamlining patient and clinical workflows. | [🔗 Live App](https://afyasync-livid.vercel.app) • [📦 Repo](https://github.com/whicklian/AfyaSync) |
-| 📊 **MMUST Data Science Track** | `Python` `Jupyter` `Data` | Hands-on Data Science curriculum designed and delivered as Track Lead at MMUST. | [📦 Explore Track](https://github.com/whicklian/DataScience_whicklian) |
-| ⚡ **Task Manager API** | `JavaScript` `REST API` | Clean, scalable backend service for task orchestration and workflow management. | [🔗 Live API](https://task-manager-api-one.vercel.app) • [📦 Repo](https://github.com/whicklian/task-manager-api) |
-| 🏘️ **Nairobi Housing** | `HTML5` `CSS3` `JS` | Modern real-estate discovery and housing showcase platform tailored for Nairobi. | [🔗 Live App](https://nairobi-housing.vercel.app) • [📦 Repo](https://github.com/whicklian/nairobi-housing) |
+| Project | Live Language Mix | Real-Time Last Commit | Live Deployment / Repo |
+| :--- | :---: | :---: | :---: |
+| 🌐 **Official Portfolio** | ![Top Lang](https://img.shields.io/github/languages/top/whicklian/portfolio?style=flat-square&color=36BCF7) | ![Last Commit](https://img.shields.io/github/last-commit/whicklian/portfolio?style=flat-square&color=6C63FF) | [🔗 Live Site](https://portfolio-frontend-ecru-kappa.vercel.app/) • [📦 Repo](https://github.com/whicklian/portfolio) |
+| 🏝️ **Habit Island** | ![Top Lang](https://img.shields.io/github/languages/top/whicklian/habit-island?style=flat-square&color=36BCF7) | ![Last Commit](https://img.shields.io/github/last-commit/whicklian/habit-island?style=flat-square&color=6C63FF) | [🔗 Live App](https://habit-island-sand.vercel.app) • [📦 Repo](https://github.com/whicklian/habit-island) |
+| 🏥 **AfyaSync** | ![Top Lang](https://img.shields.io/github/languages/top/whicklian/AfyaSync?style=flat-square&color=36BCF7) | ![Last Commit](https://img.shields.io/github/last-commit/whicklian/AfyaSync?style=flat-square&color=6C63FF) | [🔗 Live App](https://afyasync-livid.vercel.app) • [📦 Repo](https://github.com/whicklian/AfyaSync) |
+| 📊 **MMUST Data Science** | ![Top Lang](https://img.shields.io/github/languages/top/whicklian/DataScience_whicklian?style=flat-square&color=36BCF7) | ![Last Commit](https://img.shields.io/github/last-commit/whicklian/DataScience_whicklian?style=flat-square&color=6C63FF) | [📦 Explore Track](https://github.com/whicklian/DataScience_whicklian) |
+| ⚡ **Task Manager API** | ![Top Lang](https://img.shields.io/github/languages/top/whicklian/task-manager-api?style=flat-square&color=36BCF7) | ![Last Commit](https://img.shields.io/github/last-commit/whicklian/task-manager-api?style=flat-square&color=6C63FF) | [🔗 Live API](https://task-manager-api-one.vercel.app) • [📦 Repo](https://github.com/whicklian/task-manager-api) |
+| 🏘️ **Nairobi Housing** | ![Top Lang](https://img.shields.io/github/languages/top/whicklian/nairobi-housing?style=flat-square&color=36BCF7) | ![Last Commit](https://img.shields.io/github/last-commit/whicklian/nairobi-housing?style=flat-square&color=6C63FF) | [🔗 Live App](https://nairobi-housing.vercel.app) • [📦 Repo](https://github.com/whicklian/nairobi-housing) |
 
 </div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                     ⚡  REAL-TIME GITHUB ACTIVITY  ⚡                  -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<h3 align="center">⚡  Real-Time Commit & Repository Activity Feed</h3>
+
+<!--START_SECTION:realtime_activity-->
+<!--END_SECTION:realtime_activity-->
 
 ---
 
@@ -314,7 +323,7 @@ Java               1 repo     (  25 KB)   █░░░░░░░░░░░�
   <a href="https://dev.to/whicklian" target="_blank">
     <img src="https://img.shields.io/badge/DEV-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="DEV" />
   </a>
-  <a href="https://wa.me/0707848992" target="_blank">
+  <a href="https://wa.me/254707848992" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
 </p>
