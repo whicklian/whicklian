@@ -77,9 +77,9 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 <!--START_SECTION:realtime_status-->
 <div align="center">
 
-| ⚡ **Live Telemetry** | 🔥 **Current / Best Streak** | 🏆 **Rating & Ranks** | 🚀 **Latest Active Repo** |
+| ⚡ **Live Telemetry** | 🔥 **Current / Best Streak** | 🏆 **Rating & Ranks** | 🚀 **Latest Project Push** |
 | :---: | :---: | :---: | :---: |
-| 🟢 **Online & Shipping** (`2026-11-07 19:15 EAT`) | **2 Days** *(Best: 4d • 121 Contribs)* | **Rank C** *(MultiLang: S • Repos: A • Commits: B)* | **[`habit-island`](https://github.com/whicklian/habit-island)** *(Pushed 6d ago)* |
+| 🟢 **Synced** (`2026-11-07 19:18 EAT`) | **2 Days** *(Best: 5d • 123 Contribs)* | **Rank C** *(MultiLang: S • Repos: A • Commits: B)* | **[`habit-island`](https://github.com/whicklian/habit-island)** *(Pushed 6d ago)* |
 
 </div>
 <!--END_SECTION:realtime_status-->
@@ -215,15 +215,16 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <!--START_SECTION:waka-->
 ```text
-⚡ Real-Time GitHub Language Telemetry (Across 22 Public Repositories • Synced 2026-11-07 19:15 EAT)
-──────────────────────────────────────────────────────────────────────────────────────────
-JavaScript         7 repos    (3769 KB)   ████████████████░░░░░░░░░    64.0%
-CSS                2 repos    (1343 KB)   ██████░░░░░░░░░░░░░░░░░░░    22.8%
-HTML               4 repos    ( 382 KB)   ██░░░░░░░░░░░░░░░░░░░░░░░     6.5%
-Jupyter Notebook   1 repo     ( 219 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     3.7%
-TypeScript         2 repos    ( 105 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     1.8%
-Python             1 repo     (  47 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     0.8%
-Java               1 repo     (  25 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     0.4%
+⚡ Live GitHub Codebase Telemetry (Across 35 Public Repositories • Synced 2026-11-07 19:18 EAT)
+────────────────────────────────────────────────────────────────────────────────────────
+Python / Jupyter   1 repo       ███████████░░░░░░░░░░░░░░   42.98%
+JavaScript         7 repos      ███████░░░░░░░░░░░░░░░░░░   28.16%
+CSS                2 repos      ███░░░░░░░░░░░░░░░░░░░░░░   13.26%
+TypeScript         2 repos      █░░░░░░░░░░░░░░░░░░░░░░░░    4.05%
+C++                1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    3.25%
+Dart               1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.90%
+Python             1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.81%
+CMake              1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.60%
 ```
 <!--END_SECTION:waka-->
 
@@ -275,12 +276,12 @@ Java               1 repo     (  25 KB)   █░░░░░░░░░░░�
 <h3 align="center">⚡  Real-Time Commit & Repository Activity Feed</h3>
 
 <!--START_SECTION:realtime_activity-->
-- 🚀 **Pushed to [whicklian](https://github.com/whicklian/whicklian)** — `Pushed new commits` *(📅 Nov 06 • 1d ago)*
-- 🚀 **Pushed to [habit-island](https://github.com/whicklian/habit-island)** — `Pushed new commits` *(📅 Nov 01 • 6d ago)*
-- ✨ **Created branch in [habit-island](https://github.com/whicklian/habit-island)** *(📅 Nov 01 • 6d ago)*
-- ✨ **Created branch in [portfolio](https://github.com/whicklian/portfolio)** *(📅 Oct 29 • 9d ago)*
-- 🚀 **Pushed to [DataScience_whicklian](https://github.com/whicklian/DataScience_whicklian)** — `Pushed new commits` *(📅 Oct 28 • 9d ago)*
-- 🚀 **Pushed to [simple-bank-dashboard](https://github.com/whicklian/simple-bank-dashboard)** — `Pushed new commits` *(📅 Oct 26 • 12d ago)*
+- ⚡ **[`habit-island`](https://github.com/whicklian/habit-island)** (`TypeScript`) • [🌐 Live Demo](https://habit-island-sand.vercel.app): [`aeb2d1d`](https://github.com/whicklian/habit-island/commit/aeb2d1d4fb3d6367521bb4565118c50f6ba07dd9) — *chore: remove duplicate nested project* — **📅 Nov 01, 2026 (6d ago)**
+- ⚡ **[`portfolio`](https://github.com/whicklian/portfolio)** (`HTML`): [`ba52caf`](https://github.com/whicklian/portfolio/commit/ba52caf7d999fef4fe21c358e864b2b8c1b19c5e) — *first commit* — **📅 Oct 29, 2026 (9d ago)**
+- ⚡ **[`DataScience_whicklian`](https://github.com/whicklian/DataScience_whicklian)** (`Jupyter Notebook`): [`d3f43c7`](https://github.com/whicklian/DataScience_whicklian/commit/d3f43c7486af30ffcedff6029eccf11388b32bf8) — *Updated the todays sessions :* — **📅 Oct 28, 2026 (9d ago)**
+- ⚡ **[`simple-bank-dashboard`](https://github.com/whicklian/simple-bank-dashboard)** (`JavaScript`): [`361aeac`](https://github.com/whicklian/simple-bank-dashboard/commit/361aeacc5e39ff4615af08055b8f6e6c5a4ee8b5) — *Fix: Remove node_modules and .env from tracking and add .gitignore* — **📅 Oct 26, 2026 (12d ago)**
+- ⚡ **[`secureFeedbackCli`](https://github.com/whicklian/secureFeedbackCli)** (`JavaScript`): [`419df44`](https://github.com/whicklian/secureFeedbackCli/commit/419df44f5dc6608cae42e0881d3e37bf6dcbc9e6) — *first commit* — **📅 Oct 23, 2026 (15d ago)**
+- ⚡ **[`AfyaSync`](https://github.com/whicklian/AfyaSync)** (`JavaScript`) • [🌐 Live Demo](https://afyasync-livid.vercel.app): [`787dd00`](https://github.com/whicklian/AfyaSync/commit/787dd005ad38e7a199ef4a5a77b46ffff429a5bb) — *feat: optimize sync queue processing and enhance record retrieval so* — **📅 Oct 19, 2026 (19d ago)**
 <!--END_SECTION:realtime_activity-->
 
 ---
