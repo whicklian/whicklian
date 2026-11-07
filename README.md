@@ -75,6 +75,13 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 <br clear="right"/>
 
 <!--START_SECTION:realtime_status-->
+<div align="center">
+
+| ⚡ **Live Telemetry** | 🔥 **Current / Best Streak** | 🏆 **Rating & Ranks** | 🚀 **Latest Active Repo** |
+| :---: | :---: | :---: | :---: |
+| 🟢 **Online & Shipping** (`2026-11-07 19:15 EAT`) | **2 Days** *(Best: 4d • 121 Contribs)* | **Rank C** *(MultiLang: S • Repos: A • Commits: B)* | **[`habit-island`](https://github.com/whicklian/habit-island)** *(Pushed 6d ago)* |
+
+</div>
 <!--END_SECTION:realtime_status-->
 
 <p align="center">
@@ -207,6 +214,17 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 <h3 align="center">💻  Real-Time Coding & Language Telemetry</h3>
 
 <!--START_SECTION:waka-->
+```text
+⚡ Real-Time GitHub Language Telemetry (Across 22 Public Repositories • Synced 2026-11-07 19:15 EAT)
+──────────────────────────────────────────────────────────────────────────────────────────
+JavaScript         7 repos    (3769 KB)   ████████████████░░░░░░░░░    64.0%
+CSS                2 repos    (1343 KB)   ██████░░░░░░░░░░░░░░░░░░░    22.8%
+HTML               4 repos    ( 382 KB)   ██░░░░░░░░░░░░░░░░░░░░░░░     6.5%
+Jupyter Notebook   1 repo     ( 219 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     3.7%
+TypeScript         2 repos    ( 105 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     1.8%
+Python             1 repo     (  47 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     0.8%
+Java               1 repo     (  25 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     0.4%
+```
 <!--END_SECTION:waka-->
 
 ---
@@ -257,6 +275,12 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 <h3 align="center">⚡  Real-Time Commit & Repository Activity Feed</h3>
 
 <!--START_SECTION:realtime_activity-->
+- 🚀 **Pushed to [whicklian](https://github.com/whicklian/whicklian)** — `Pushed new commits` *(📅 Nov 06 • 1d ago)*
+- 🚀 **Pushed to [habit-island](https://github.com/whicklian/habit-island)** — `Pushed new commits` *(📅 Nov 01 • 6d ago)*
+- ✨ **Created branch in [habit-island](https://github.com/whicklian/habit-island)** *(📅 Nov 01 • 6d ago)*
+- ✨ **Created branch in [portfolio](https://github.com/whicklian/portfolio)** *(📅 Oct 29 • 9d ago)*
+- 🚀 **Pushed to [DataScience_whicklian](https://github.com/whicklian/DataScience_whicklian)** — `Pushed new commits` *(📅 Oct 28 • 9d ago)*
+- 🚀 **Pushed to [simple-bank-dashboard](https://github.com/whicklian/simple-bank-dashboard)** — `Pushed new commits` *(📅 Oct 26 • 12d ago)*
 <!--END_SECTION:realtime_activity-->
 
 ---
