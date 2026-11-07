@@ -217,14 +217,14 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 ```text
 ⚡ Live GitHub Codebase Telemetry (41 Total Repositories • 1,074 Contributions • Synced 2026-11-07 19:30 EAT)
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-Python / Jupyter   2 repos      ███████████░░░░░░░░░░░░░░   42.93%
-JavaScript         9 repos      ███████░░░░░░░░░░░░░░░░░░   28.13%
-CSS                4 repos      ███░░░░░░░░░░░░░░░░░░░░░░   13.24%
+Python / Jupyter   2 repos      ███████████░░░░░░░░░░░░░░   42.98%
+JavaScript         9 repos      ███████░░░░░░░░░░░░░░░░░░   28.16%
+CSS                4 repos      ███░░░░░░░░░░░░░░░░░░░░░░   13.26%
 TypeScript         2 repos      █░░░░░░░░░░░░░░░░░░░░░░░░    4.05%
 C++                1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    3.25%
-Python             2 repos      █░░░░░░░░░░░░░░░░░░░░░░░░    2.92%
 Dart               1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.90%
-CMake              1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.59%
+Python             2 repos      █░░░░░░░░░░░░░░░░░░░░░░░░    2.81%
+CMake              1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.60%
 ```
 <!--END_SECTION:waka-->
 
