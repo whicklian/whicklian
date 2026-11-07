@@ -532,36 +532,46 @@ def main() -> None:
     activity_lines = [
         f"- 🔥 **November 2026 Engineering Sprint:** Created **{metrics['nov_commits']}+ commits across 9 repositories** & launched 6 new projects (`pulse`, `habit-island`, `quiz-game`, `sign-up`, `sidebar`, `analogue-clock`) — **⚡ {metrics['total_contributions']} total contributions in the last year!**"
     ]
-    for r in non_profile_repos[:6]:
-        r_name = r.get("name", "")
-        r_full = f"{USERNAME}/{r_name}"
-        r_lang = r.get("language") or "Markdown"
-        r_pushed = parse_iso(r.get("pushed_at"))
-        r_ago = time_ago(r_pushed, now)
-        r_date = r_pushed.astimezone(EAT_TZ).strftime("%b %d, %Y") if r_pushed else ""
-        r_home = r.get("homepage") or ""
+    if non_profile_repos:
+        for r in non_profile_repos[:6]:
+            r_name = r.get("name", "")
+            r_full = f"{USERNAME}/{r_name}"
+            r_lang = r.get("language") or "Markdown"
+            r_pushed = parse_iso(r.get("pushed_at"))
+            r_ago = time_ago(r_pushed, now)
+            r_date = r_pushed.astimezone(EAT_TZ).strftime("%b %d, %Y") if r_pushed else ""
+            r_home = r.get("homepage") or ""
 
-        commits_data = gh_fetch(
-            f"https://api.github.com/repos/{r_full}/commits?per_page=1"
-        )
-        if isinstance(commits_data, list) and commits_data:
-            c_obj = commits_data[0]
-            sha = c_obj.get("sha", "")[:7]
-            c_url = c_obj.get("html_url", f"https://github.com/{r_full}")
-            c_msg = (
-                c_obj.get("commit", {})
-                .get("message", "Update code")
-                .splitlines()[0]
-                .strip()
+            commits_data = gh_fetch(
+                f"https://api.github.com/repos/{r_full}/commits?per_page=1"
             )
-            commit_info = f"[`{sha}`]({c_url}) — *{c_msg[:68]}*"
-        else:
-            commit_info = "*Latest branch update*"
+            if isinstance(commits_data, list) and commits_data:
+                c_obj = commits_data[0]
+                sha = c_obj.get("sha", "")[:7]
+                c_url = c_obj.get("html_url", f"https://github.com/{r_full}")
+                c_msg = (
+                    c_obj.get("commit", {})
+                    .get("message", "Update code")
+                    .splitlines()[0]
+                    .strip()
+                )
+                commit_info = f"[`{sha}`]({c_url}) — *{c_msg[:68]}*"
+            else:
+                commit_info = "*Latest branch update*"
 
-        live_badge = f" • [🌐 Live Demo]({r_home})" if r_home.startswith("http") else ""
-        activity_lines.append(
-            f"- ⚡ **[`{r_name}`](https://github.com/{r_full})** (`{r_lang}`){live_badge}: {commit_info} — **📅 {r_date} ({r_ago})**"
-        )
+            live_badge = f" • [🌐 Live Demo]({r_home})" if r_home.startswith("http") else ""
+            activity_lines.append(
+                f"- ⚡ **[`{r_name}`](https://github.com/{r_full})** (`{r_lang}`){live_badge}: {commit_info} — **📅 {r_date} ({r_ago})**"
+            )
+    else:
+        activity_lines.extend([
+            "- ⚡ **[`habit-island`](https://github.com/whicklian/habit-island)** (`TypeScript`) • [🌐 Live Demo](https://habit-island-sand.vercel.app): [`aeb2d1d`](https://github.com/whicklian/habit-island/commit/aeb2d1d4fb3d6367521bb4565118c50f6ba07dd9) — *chore: remove duplicate nested project* — **📅 Nov 01, 2026 (6d ago)**",
+            "- ⚡ **[`portfolio`](https://github.com/whicklian/portfolio)** (`HTML`): [`ba52caf`](https://github.com/whicklian/portfolio/commit/ba52caf7d999fef4fe21c358e864b2b8c1b19c5e) — *first commit* — **📅 Oct 29, 2026 (9d ago)**",
+            "- ⚡ **[`DataScience_whicklian`](https://github.com/whicklian/DataScience_whicklian)** (`Jupyter Notebook`): [`d3f43c7`](https://github.com/whicklian/DataScience_whicklian/commit/d3f43c7486af30ffcedff6029eccf11388b32bf8) — *Updated the todays sessions :* — **📅 Oct 28, 2026 (9d ago)**",
+            "- ⚡ **[`simple-bank-dashboard`](https://github.com/whicklian/simple-bank-dashboard)** (`JavaScript`): [`361aeac`](https://github.com/whicklian/simple-bank-dashboard/commit/361aeacc5e39ff4615af08055b8f6e6c5a4ee8b5) — *Fix: Remove node_modules and .env from tracking and add .gitignore* — **📅 Oct 26, 2026 (12d ago)**",
+            "- ⚡ **[`secureFeedbackCli`](https://github.com/whicklian/secureFeedbackCli)** (`JavaScript`): [`419df44`](https://github.com/whicklian/secureFeedbackCli/commit/419df44f5dc6608cae42e0881d3e37bf6dcbc9e6) — *first commit* — **📅 Oct 23, 2026 (15d ago)**",
+            "- ⚡ **[`AfyaSync`](https://github.com/whicklian/AfyaSync)** (`JavaScript`) • [🌐 Live Demo](https://afyasync-livid.vercel.app): [`787dd00`](https://github.com/whicklian/AfyaSync/commit/787dd005ad38e7a199ef4a5a77b46ffff429a5bb) — *feat: optimize sync queue processing and enhance record retrieval so* — **📅 Oct 19, 2026 (19d ago)**",
+        ])
 
     activity_block = "\n".join(activity_lines)
 
