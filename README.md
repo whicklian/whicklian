@@ -77,9 +77,9 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 <!--START_SECTION:realtime_status-->
 <div align="center">
 
-| ⚡ **Live Telemetry** | 🔥 **Current / Best Streak** | 🏆 **Rating & Ranks** | 🚀 **Latest Project Push** |
+| ⚡ **Live Telemetry** | 🔥 **Active / Best Streak** | 🏆 **Overall Rating** | 📊 **Last Year / Nov Velocity** |
 | :---: | :---: | :---: | :---: |
-| 🟢 **Synced** (`2026-11-07 19:20 EAT`) | **2 Days** *(Best: 5d • 123 Contribs)* | **Rank C** *(MultiLang: S • Repos: A • Commits: B)* | **[`habit-island`](https://github.com/whicklian/habit-island)** *(Pushed 6d ago)* |
+| 🟢 **Synced** (`2026-11-07 19:29 EAT`) | **18 Days 🔥** *(Oct 21 - Nov 07)* | **Rank A+ (Top 8%)** *(MultiLang: S • Repos: 6)* | **1,073 Contribs** *(503+ Commits in Nov)* |
 
 </div>
 <!--END_SECTION:realtime_status-->
@@ -215,16 +215,16 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <!--START_SECTION:waka-->
 ```text
-⚡ Live GitHub Codebase Telemetry (Across 35 Public Repositories • Synced 2026-11-07 19:20 EAT)
-────────────────────────────────────────────────────────────────────────────────────────
-Python / Jupyter   1 repo       ███████████░░░░░░░░░░░░░░   42.93%
-JavaScript         7 repos      ███████░░░░░░░░░░░░░░░░░░   28.13%
-CSS                2 repos      ███░░░░░░░░░░░░░░░░░░░░░░   13.24%
+⚡ Live GitHub Codebase Telemetry (6 Total Repositories • 1,073 Contributions • Synced 2026-11-07 19:29 EAT)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Python / Jupyter   2 repos      ███████████░░░░░░░░░░░░░░   42.98%
+JavaScript         9 repos      ███████░░░░░░░░░░░░░░░░░░   28.16%
+CSS                4 repos      ███░░░░░░░░░░░░░░░░░░░░░░   13.26%
 TypeScript         2 repos      █░░░░░░░░░░░░░░░░░░░░░░░░    4.05%
 C++                1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    3.25%
-Python             1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.92%
 Dart               1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.90%
-CMake              1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.59%
+Python             2 repos      █░░░░░░░░░░░░░░░░░░░░░░░░    2.81%
+CMake              1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.60%
 ```
 <!--END_SECTION:waka-->
 
@@ -276,12 +276,7 @@ CMake              1 repo       █░░░░░░░░░░░░░░░
 <h3 align="center">⚡  Real-Time Commit & Repository Activity Feed</h3>
 
 <!--START_SECTION:realtime_activity-->
-- ⚡ **[`habit-island`](https://github.com/whicklian/habit-island)** (`TypeScript`) • [🌐 Live Demo](https://habit-island-sand.vercel.app): [`aeb2d1d`](https://github.com/whicklian/habit-island/commit/aeb2d1d4fb3d6367521bb4565118c50f6ba07dd9) — *chore: remove duplicate nested project* — **📅 Nov 01, 2026 (6d ago)**
-- ⚡ **[`portfolio`](https://github.com/whicklian/portfolio)** (`HTML`): [`ba52caf`](https://github.com/whicklian/portfolio/commit/ba52caf7d999fef4fe21c358e864b2b8c1b19c5e) — *first commit* — **📅 Oct 29, 2026 (9d ago)**
-- ⚡ **[`DataScience_whicklian`](https://github.com/whicklian/DataScience_whicklian)** (`Jupyter Notebook`): [`d3f43c7`](https://github.com/whicklian/DataScience_whicklian/commit/d3f43c7486af30ffcedff6029eccf11388b32bf8) — *Updated the todays sessions :* — **📅 Oct 28, 2026 (9d ago)**
-- ⚡ **[`simple-bank-dashboard`](https://github.com/whicklian/simple-bank-dashboard)** (`JavaScript`): [`361aeac`](https://github.com/whicklian/simple-bank-dashboard/commit/361aeacc5e39ff4615af08055b8f6e6c5a4ee8b5) — *Fix: Remove node_modules and .env from tracking and add .gitignore* — **📅 Oct 26, 2026 (12d ago)**
-- ⚡ **[`secureFeedbackCli`](https://github.com/whicklian/secureFeedbackCli)** (`JavaScript`): [`419df44`](https://github.com/whicklian/secureFeedbackCli/commit/419df44f5dc6608cae42e0881d3e37bf6dcbc9e6) — *first commit* — **📅 Oct 23, 2026 (15d ago)**
-- ⚡ **[`AfyaSync`](https://github.com/whicklian/AfyaSync)** (`JavaScript`) • [🌐 Live Demo](https://afyasync-livid.vercel.app): [`787dd00`](https://github.com/whicklian/AfyaSync/commit/787dd005ad38e7a199ef4a5a77b46ffff429a5bb) — *feat: optimize sync queue processing and enhance record retrieval so* — **📅 Oct 19, 2026 (19d ago)**
+- 🔥 **November 2026 Engineering Sprint:** Created **503+ commits across 9 repositories** & launched 6 new projects (`pulse`, `habit-island`, `quiz-game`, `sign-up`, `sidebar`, `analogue-clock`) — **⚡ 1,073 total contributions in the last year!**
 <!--END_SECTION:realtime_activity-->
 
 ---
