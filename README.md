@@ -79,7 +79,7 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 | ⚡ **Live Telemetry** | 🔥 **Current / Best Streak** | 🏆 **Rating & Ranks** | 🚀 **Latest Project Push** |
 | :---: | :---: | :---: | :---: |
-| 🟢 **Synced** (`2026-11-07 19:19 EAT`) | **2 Days** *(Best: 4d • 121 Contribs)* | **Rank C** *(MultiLang: S • Repos: A • Commits: B)* | **[`habit-island`](https://github.com/whicklian/habit-island)** *(Pushed 6d ago)* |
+| 🟢 **Synced** (`2026-11-07 19:20 EAT`) | **2 Days** *(Best: 5d • 123 Contribs)* | **Rank C** *(MultiLang: S • Repos: A • Commits: B)* | **[`habit-island`](https://github.com/whicklian/habit-island)** *(Pushed 6d ago)* |
 
 </div>
 <!--END_SECTION:realtime_status-->
@@ -215,16 +215,16 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <!--START_SECTION:waka-->
 ```text
-⚡ Live GitHub Codebase Telemetry (Across 35 Public Repositories • Synced 2026-11-07 19:19 EAT)
+⚡ Live GitHub Codebase Telemetry (Across 35 Public Repositories • Synced 2026-11-07 19:20 EAT)
 ────────────────────────────────────────────────────────────────────────────────────────
-Python / Jupyter   1 repo       ███████████░░░░░░░░░░░░░░   42.98%
-JavaScript         7 repos      ███████░░░░░░░░░░░░░░░░░░   28.16%
-CSS                2 repos      ███░░░░░░░░░░░░░░░░░░░░░░   13.26%
+Python / Jupyter   1 repo       ███████████░░░░░░░░░░░░░░   42.93%
+JavaScript         7 repos      ███████░░░░░░░░░░░░░░░░░░   28.13%
+CSS                2 repos      ███░░░░░░░░░░░░░░░░░░░░░░   13.24%
 TypeScript         2 repos      █░░░░░░░░░░░░░░░░░░░░░░░░    4.05%
 C++                1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    3.25%
+Python             1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.92%
 Dart               1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.90%
-Python             1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.81%
-CMake              1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.60%
+CMake              1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.59%
 ```
 <!--END_SECTION:waka-->
 
