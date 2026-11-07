@@ -40,7 +40,7 @@
   <img src="https://komarev.com/ghpvc/?username=whicklian&label=Profile%20Views&color=36BCF7&style=for-the-badge" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/whicklian?label=Followers&style=for-the-badge&color=6C63FF&logo=github&logoColor=white" alt="Followers"/>
   <img src="https://img.shields.io/github/stars/whicklian?label=Stars&style=for-the-badge&color=36BCF7&logo=github&logoColor=white" alt="Stars"/>
-  <img src="https://img.shields.io/badge/Dynamic/JSON?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fwhicklian&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&color=6C63FF&logo=git&logoColor=white" alt="Public Repos"/>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fwhicklian&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&color=6C63FF&logo=git&logoColor=white" alt="Public Repos"/>
   <a href="https://portfolio-frontend-ecru-kappa.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-Live-36BCF7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
