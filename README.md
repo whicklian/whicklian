@@ -307,7 +307,7 @@ Other         45 mins         █░░░░░░░░░░░░░░░�
   <a href="https://twitter.com/" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
-  <a href="https://dev.to/" target="_blank">
+  <a href="https://dev.to/whicklian" target="_blank">
     <img src="https://img.shields.io/badge/DEV-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="DEV" />
   </a>
   <a href="https://wa.me/" target="_blank">
