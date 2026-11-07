@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Real-Time GitHub Profile Updater for @whicklian
-Fetches live telemetry from the GitHub API + Streak/Stats endpoints,
+Fetches live telemetry from the GitHub API + GraphQL Stats/Streak endpoints,
 generates an animated SVG HUD (assets/realtime-hud.svg), and updates
 dynamic sections in README.md between <!--START_SECTION:...--> markers.
 """
@@ -88,13 +88,13 @@ def fetch_streak_and_rating(repos: list[dict], user: dict) -> dict:
     followers = user.get("followers", 0)
 
     data = {
-        "total_contributions": "123+",
-        "contrib_range": "Nov 2025 - Present",
+        "total_contributions": "123",
+        "contrib_range": "Nov 26, 2025 - Present",
         "current_streak": "2",
-        "current_streak_range": "Active",
+        "current_streak_range": "Nov 6 - Nov 7",
         "longest_streak": "5",
         "longest_streak_range": "Sep 21 - Sep 25",
-        "total_commits": "122+",
+        "total_commits": "122",
         "rank": "C",
         "total_stars": str(total_stars),
         "public_repos": str(public_repos),
@@ -110,7 +110,6 @@ def fetch_streak_and_rating(repos: list[dict], user: dict) -> dict:
             for t in re.findall(r"<text[^>]*>([^<]+)</text>", streak_svg)
             if t.strip()
         ]
-        # Expected order: [total, 'Total Contributions', range, 'Current Streak', curr_range, curr_val, long_val, 'Longest Streak', long_range]
         if len(texts) >= 9 and "Total Contributions" in texts:
             try:
                 idx_tc = texts.index("Total Contributions")
@@ -140,34 +139,56 @@ def fetch_streak_and_rating(repos: list[dict], user: dict) -> dict:
     return data
 
 
-def compute_realtime_languages(repos: list[dict]) -> list[tuple[str, int, int, float]]:
+def compute_realtime_languages(repos: list[dict]) -> list[tuple[str, int, float]]:
     """
-    Computes real-time language breakdown across all non-fork repos.
-    Returns list of (language, repo_count, kb_size, percentage).
+    Fetches exact real-time GraphQL source-code language percentages across all repos,
+    paired with primary repository counts from the GitHub REST API.
+    Returns list of (language, repo_count, percentage).
     """
-    lang_weights: dict[str, int] = {}
     lang_repos: dict[str, int] = {}
-
+    lang_weights: dict[str, int] = {}
     for r in repos:
         if r.get("fork"):
             continue
         lang = r.get("language")
-        if not lang:
-            continue
-        # Weight by repo size (in KB, minimum 25 KB so small repos still count fairly) + recent activity bonus
-        size_kb = max(25, min(r.get("size", 50), 2500))
-        lang_weights[lang] = lang_weights.get(lang, 0) + size_kb
-        lang_repos[lang] = lang_repos.get(lang, 0) + 1
+        if lang:
+            lang_repos[lang] = lang_repos.get(lang, 0) + 1
+            lang_weights[lang] = lang_weights.get(lang, 0) + max(25, r.get("size", 50))
 
-    total_weight = sum(lang_weights.values()) or 1
+    # Query GraphQL-backed top-langs SVG for exact byte-level percentages across all files
+    svg = raw_fetch(
+        f"https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username={USERNAME}&langs_count=8"
+    )
+    if svg:
+        texts = [
+            t.strip()
+            for t in re.findall(r"<text[^>]*>([^<]+)</text>", svg)
+            if t.strip() and t.strip() != "My Programming Languages"
+        ]
+        parsed: list[tuple[str, int, float]] = []
+        i = 0
+        while i + 1 < len(texts):
+            lang_name = texts[i]
+            pct_str = texts[i + 1].replace("%", "").strip()
+            try:
+                pct = float(pct_str)
+                rcount = lang_repos.get(lang_name, 1)
+                parsed.append((lang_name, rcount, pct))
+                i += 2
+            except ValueError:
+                i += 1
+        if parsed:
+            return parsed
+
+    # Fallback to REST repo calculation
+    total_w = sum(lang_weights.values()) or 1
     results = []
-    for lang, weight in sorted(lang_weights.items(), key=lambda x: x[1], reverse=True):
-        pct = (weight / total_weight) * 100.0
-        results.append((lang, lang_repos[lang], weight, pct))
+    for lang, w in sorted(lang_weights.items(), key=lambda x: x[1], reverse=True):
+        results.append((lang, lang_repos[lang], (w / total_w) * 100.0))
     return results
 
 
-def build_bar(pct: float, width: int = 23) -> str:
+def build_bar(pct: float, width: int = 25) -> str:
     filled = max(1 if pct > 0 else 0, round((pct / 100.0) * width))
     filled = min(width, filled)
     return "█" * filled + "░" * (width - filled)
@@ -175,32 +196,35 @@ def build_bar(pct: float, width: int = 23) -> str:
 
 def generate_hud_svg(
     metrics: dict,
-    lang_stats: list[tuple[str, int, int, float]],
+    lang_stats: list[tuple[str, int, float]],
     latest_repo: str,
     latest_pushed_ago: str,
     now_str: str,
 ) -> str:
     lang_colors = {
+        "Jupyter Notebook": "#DA5B0B",
         "Python": "#3776AB",
         "JavaScript": "#F7DF1E",
         "TypeScript": "#3178C6",
-        "Jupyter Notebook": "#DA5B0B",
         "HTML": "#E34F26",
         "CSS": "#1572B6",
+        "C++": "#f34b7d",
+        "Dart": "#00B4AB",
         "Java": "#B07219",
     }
 
     top_langs = lang_stats[:4]
     lang_bars_svg = []
     y_offset = 108
-    for lang, rcount, _, pct in top_langs:
+    for lang, rcount, pct in top_langs:
         color = lang_colors.get(lang, "#36BCF7")
-        bar_w = max(8, int((pct / 100.0) * 185))
-        disp_lang = "Jupyter / Data" if lang == "Jupyter Notebook" else lang
+        bar_w = max(10, int((pct / 100.0) * 220))
+        disp_lang = "Python / Jupyter" if lang == "Jupyter Notebook" else lang
+        r_label = f"{rcount} repo" if rcount == 1 else f"{rcount} repos"
         lang_bars_svg.append(
             f"""
       <text x="580" y="{y_offset}" fill="#c9d1d9" font-size="11.5" font-weight="600" font-family="'Segoe UI', Ubuntu, sans-serif">{html.escape(disp_lang)}</text>
-      <text x="820" y="{y_offset}" fill="#8b949e" font-size="11" font-family="'Fira Code', monospace" text-anchor="end">{rcount} repos • {pct:.1f}%</text>
+      <text x="820" y="{y_offset}" fill="#8b949e" font-size="11" font-family="'Fira Code', monospace" text-anchor="end">{r_label} • {pct:.1f}%</text>
       <rect x="580" y="{y_offset + 5}" width="240" height="6" rx="3" fill="#1f2937"/>
       <rect x="580" y="{y_offset + 5}" width="{bar_w}" height="6" rx="3" fill="{color}"/>
 """
@@ -287,10 +311,20 @@ def generate_hud_svg(
 
   <!-- COLUMN 3: LIVE REPO LANGUAGE TELEMETRY -->
   <rect x="565" y="58" width="275" height="158" rx="10" fill="#161b22" stroke="#21262d"/>
-  <text x="580" y="80" fill="#36BCF7" font-size="12" font-weight="700" font-family="'Segoe UI', sans-serif">💻 LIVE REPO LANGUAGE MIX</text>
+  <text x="580" y="80" fill="#36BCF7" font-size="12" font-weight="700" font-family="'Segoe UI', sans-serif">💻 LIVE CODE LANGUAGE MIX</text>
   {"".join(lang_bars_svg)}
 </svg>
 """
+
+
+def fetch_commit_details(repo_full: str, sha: str) -> tuple[str, int, int]:
+    """Fetches commit message and (+additions, -deletions) for a commit SHA."""
+    c = gh_fetch(f"https://api.github.com/repos/{repo_full}/commits/{sha}")
+    if not isinstance(c, dict):
+        return ("Updated repository code", 0, 0)
+    msg = c.get("commit", {}).get("message", "Updated code").splitlines()[0].strip()
+    stats = c.get("stats", {})
+    return (msg, stats.get("additions", 0), stats.get("deletions", 0))
 
 
 def replace_section(content: str, section_name: str, new_body: str) -> str:
@@ -328,9 +362,11 @@ def main() -> None:
     metrics = fetch_streak_and_rating(repos, user if isinstance(user, dict) else {})
     lang_stats = compute_realtime_languages(repos)
 
-    # Find latest pushed repo
+    # Find latest pushed project repo (excluding profile repo itself)
     non_profile_repos = [r for r in repos if r.get("name") != USERNAME]
-    latest_repo_obj = non_profile_repos[0] if non_profile_repos else (repos[0] if repos else {})
+    latest_repo_obj = (
+        non_profile_repos[0] if non_profile_repos else (repos[0] if repos else {})
+    )
     latest_repo_name = latest_repo_obj.get("name", "habit-island")
     latest_pushed_dt = parse_iso(latest_repo_obj.get("pushed_at"))
     latest_pushed_ago = time_ago(latest_pushed_dt, now)
@@ -348,62 +384,53 @@ def main() -> None:
     print(f"[ok] Generated {HUD_SVG_PATH}")
 
     # 2. Build Waka / Live Language Telemetry section
+    total_public = metrics["public_repos"]
     waka_lines = [
-        f"⚡ Real-Time GitHub Language Telemetry (Across {len([r for r in repos if not r.get('fork')])} Public Repositories • Synced {now_str})",
-        "──────────────────────────────────────────────────────────────────────────────────────────",
+        f"⚡ Live GitHub Codebase Telemetry (Across {total_public} Public Repositories • Synced {now_str})",
+        "────────────────────────────────────────────────────────────────────────────────────────",
     ]
-    for lang, rcount, kb, pct in lang_stats[:7]:
+    for lang, rcount, pct in lang_stats[:8]:
         bar = build_bar(pct, width=25)
+        disp_lang = "Python / Jupyter" if lang == "Jupyter Notebook" else lang
         repo_label = f"{rcount} repo" if rcount == 1 else f"{rcount} repos"
         waka_lines.append(
-            f"{lang:<18} {repo_label:<10} ({kb:>4} KB)   {bar}   {pct:>5.1f}%"
+            f"{disp_lang:<18} {repo_label:<10}   {bar}   {pct:>5.2f}%"
         )
     waka_block = "```text\n" + "\n".join(waka_lines) + "\n```"
 
-    # 3. Build Real-Time Activity Feed section
+    # 3. Build Real-Time Activity Feed section from most recently pushed repos + events
     activity_lines = []
-    seen_entries = set()
-    for ev in events:
-        ev_type = ev.get("type", "")
-        repo_full = ev.get("repo", {}).get("name", "")
-        repo_short = repo_full.split("/")[-1] if "/" in repo_full else repo_full
-        ev_dt = parse_iso(ev.get("created_at"))
-        ago = time_ago(ev_dt, now)
-        date_short = ev_dt.astimezone(EAT_TZ).strftime("%b %d") if ev_dt else ""
+    for r in non_profile_repos[:6]:
+        r_name = r.get("name", "")
+        r_full = f"{USERNAME}/{r_name}"
+        r_lang = r.get("language") or "Markdown"
+        r_pushed = parse_iso(r.get("pushed_at"))
+        r_ago = time_ago(r_pushed, now)
+        r_date = r_pushed.astimezone(EAT_TZ).strftime("%b %d, %Y") if r_pushed else ""
+        r_home = r.get("homepage") or ""
 
-        if ev_type == "PushEvent":
-            commits = ev.get("payload", {}).get("commits", [])
-            msg = commits[-1].get("message", "").splitlines()[0] if commits else "Pushed new commits"
-            key = f"push:{repo_short}:{msg}"
-            if key in seen_entries:
-                continue
-            seen_entries.add(key)
-            activity_lines.append(
-                f"- 🚀 **Pushed to [{repo_short}](https://github.com/{repo_full})** — `{msg[:65]}` *(📅 {date_short} • {ago})*"
+        # Fetch latest commit on default branch
+        commits_data = gh_fetch(
+            f"https://api.github.com/repos/{r_full}/commits?per_page=1"
+        )
+        commit_info = ""
+        if isinstance(commits_data, list) and commits_data:
+            c_obj = commits_data[0]
+            sha = c_obj.get("sha", "")[:7]
+            c_url = c_obj.get("html_url", f"https://github.com/{r_full}")
+            c_msg = (
+                c_obj.get("commit", {})
+                .get("message", "Update code")
+                .splitlines()[0]
+                .strip()
             )
-        elif ev_type == "CreateEvent":
-            ref_type = ev.get("payload", {}).get("ref_type", "repository")
-            key = f"create:{repo_short}:{ref_type}"
-            if key in seen_entries:
-                continue
-            seen_entries.add(key)
-            activity_lines.append(
-                f"- ✨ **Created {ref_type} in [{repo_short}](https://github.com/{repo_full})** *(📅 {date_short} • {ago})*"
-            )
-        elif ev_type == "WatchEvent":
-            key = f"star:{repo_short}"
-            if key in seen_entries:
-                continue
-            seen_entries.add(key)
-            activity_lines.append(
-                f"- ⭐ **Starred [{repo_full}](https://github.com/{repo_full})** *(📅 {date_short} • {ago})*"
-            )
-        if len(activity_lines) >= 6:
-            break
+            commit_info = f"[`{sha}`]({c_url}) — *{c_msg[:68]}*"
+        else:
+            commit_info = "*Latest branch update*"
 
-    if not activity_lines:
+        live_badge = f" • [🌐 Live Demo]({r_home})" if r_home.startswith("http") else ""
         activity_lines.append(
-            f"- 🚀 **Active on [{latest_repo_name}](https://github.com/{USERNAME}/{latest_repo_name})** *(Updated {latest_pushed_ago})*"
+            f"- ⚡ **[`{r_name}`](https://github.com/{r_full})** (`{r_lang}`){live_badge}: {commit_info} — **📅 {r_date} ({r_ago})**"
         )
 
     activity_block = "\n".join(activity_lines)
@@ -411,9 +438,9 @@ def main() -> None:
     # 4. Build Real-Time Status Row
     status_block = f"""<div align="center">
 
-| ⚡ **Live Telemetry** | 🔥 **Current / Best Streak** | 🏆 **Rating & Ranks** | 🚀 **Latest Active Repo** |
+| ⚡ **Live Telemetry** | 🔥 **Current / Best Streak** | 🏆 **Rating & Ranks** | 🚀 **Latest Project Push** |
 | :---: | :---: | :---: | :---: |
-| 🟢 **Online & Shipping** (`{now_str}`) | **{metrics["current_streak"]} Days** *(Best: {metrics["longest_streak"]}d • {metrics["total_contributions"]} Contribs)* | **Rank {metrics["rank"]}** *(MultiLang: S • Repos: A • Commits: B)* | **[`{latest_repo_name}`](https://github.com/{USERNAME}/{latest_repo_name})** *(Pushed {latest_pushed_ago})* |
+| 🟢 **Synced** (`{now_str}`) | **{metrics["current_streak"]} Days** *(Best: {metrics["longest_streak"]}d • {metrics["total_contributions"]} Contribs)* | **Rank {metrics["rank"]}** *(MultiLang: S • Repos: A • Commits: B)* | **[`{latest_repo_name}`](https://github.com/{USERNAME}/{latest_repo_name})** *(Pushed {latest_pushed_ago})* |
 
 </div>"""
 
