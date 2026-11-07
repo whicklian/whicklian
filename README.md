@@ -217,11 +217,15 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <!--START_SECTION:waka-->
 ```text
-Python        8 hrs 42 mins   ████████████░░░░░░░░░░░   48.5%
-JavaScript    4 hrs 15 mins   ██████░░░░░░░░░░░░░░░░░   23.7%
-HTML          2 hrs 30 mins   ████░░░░░░░░░░░░░░░░░░░   13.9%
-CSS           1 hr 45 mins    ███░░░░░░░░░░░░░░░░░░░░   9.8%
-Other         45 mins         █░░░░░░░░░░░░░░░░░░░░░░   4.1%
+⚡ Real-Time GitHub Language Telemetry (Across 22 Public Repositories • Synced 2026-11-07 19:14 EAT)
+──────────────────────────────────────────────────────────────────────────────────────────
+JavaScript         7 repos    (3769 KB)   ████████████████░░░░░░░░░    64.0%
+CSS                2 repos    (1343 KB)   ██████░░░░░░░░░░░░░░░░░░░    22.8%
+HTML               4 repos    ( 382 KB)   ██░░░░░░░░░░░░░░░░░░░░░░░     6.5%
+Jupyter Notebook   1 repo     ( 219 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     3.7%
+TypeScript         2 repos    ( 105 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     1.8%
+Python             1 repo     (  47 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     0.8%
+Java               1 repo     (  25 KB)   █░░░░░░░░░░░░░░░░░░░░░░░░     0.4%
 ```
 <!--END_SECTION:waka-->
 
