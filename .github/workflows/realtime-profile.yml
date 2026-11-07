@@ -4,12 +4,6 @@ on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - "scripts/**"
-      - ".github/workflows/realtime-profile.yml"
 
 jobs:
   update-profile:
@@ -41,4 +35,3 @@ jobs:
           else
             echo "No telemetry changes to commit."
           fi
-
