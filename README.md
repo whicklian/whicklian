@@ -106,8 +106,6 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
@@ -121,7 +119,6 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
@@ -266,24 +263,6 @@ CMake              1 repo       █░░░░░░░░░░░░░░░
 | 🏘️ **Nairobi Housing** | ![Top Lang](https://img.shields.io/github/languages/top/whicklian/nairobi-housing?style=flat-square&color=36BCF7) | ![Last Commit](https://img.shields.io/github/last-commit/whicklian/nairobi-housing?style=flat-square&color=6C63FF) | [🔗 Live App](https://nairobi-housing.vercel.app) • [📦 Repo](https://github.com/whicklian/nairobi-housing) |
 
 </div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                     ⚡  REAL-TIME GITHUB ACTIVITY  ⚡                  -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<h3 align="center">⚡  Real-Time Commit & Repository Activity Feed</h3>
-
-<!--START_SECTION:realtime_activity-->
-- 🔥 **November 2026 Engineering Sprint:** Created **506+ commits across 9 repositories** & launched 6 new projects (`pulse`, `habit-island`, `quiz-game`, `sign-up`, `sidebar`, `analogue-clock`) — **⚡ 1,076 total contributions in the last year!**
-- ⚡ **[`habit-island`](https://github.com/whicklian/habit-island)** (`TypeScript`) • [🌐 Live Demo](https://habit-island-sand.vercel.app): [`aeb2d1d`](https://github.com/whicklian/habit-island/commit/aeb2d1d4fb3d6367521bb4565118c50f6ba07dd9) — *chore: remove duplicate nested project* — **📅 Nov 01, 2026 (6d ago)**
-- ⚡ **[`portfolio`](https://github.com/whicklian/portfolio)** (`HTML`): [`ba52caf`](https://github.com/whicklian/portfolio/commit/ba52caf7d999fef4fe21c358e864b2b8c1b19c5e) — *first commit* — **📅 Oct 29, 2026 (9d ago)**
-- ⚡ **[`DataScience_whicklian`](https://github.com/whicklian/DataScience_whicklian)** (`Jupyter Notebook`): [`d3f43c7`](https://github.com/whicklian/DataScience_whicklian/commit/d3f43c7486af30ffcedff6029eccf11388b32bf8) — *Updated the todays sessions :* — **📅 Oct 28, 2026 (9d ago)**
-- ⚡ **[`simple-bank-dashboard`](https://github.com/whicklian/simple-bank-dashboard)** (`JavaScript`): [`361aeac`](https://github.com/whicklian/simple-bank-dashboard/commit/361aeacc5e39ff4615af08055b8f6e6c5a4ee8b5) — *Fix: Remove node_modules and .env from tracking and add .gitignore* — **📅 Oct 26, 2026 (12d ago)**
-- ⚡ **[`secureFeedbackCli`](https://github.com/whicklian/secureFeedbackCli)** (`JavaScript`): [`419df44`](https://github.com/whicklian/secureFeedbackCli/commit/419df44f5dc6608cae42e0881d3e37bf6dcbc9e6) — *first commit* — **📅 Oct 23, 2026 (15d ago)**
-- ⚡ **[`AfyaSync`](https://github.com/whicklian/AfyaSync)** (`JavaScript`) • [🌐 Live Demo](https://afyasync-livid.vercel.app): [`787dd00`](https://github.com/whicklian/AfyaSync/commit/787dd005ad38e7a199ef4a5a77b46ffff429a5bb) — *feat: optimize sync queue processing and enhance record retrieval so* — **📅 Oct 19, 2026 (19d ago)**
-<!--END_SECTION:realtime_activity-->
 
 ---
 
