@@ -139,7 +139,7 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 <!-- Row 1: Rating Card (Classic) + Global Percentile Rating Card (Extended) -->
 <p align="center">
   <a href="https://github.com/whicklian">
-    <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=whicklian&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF&text_color=c9d1d9&ring_color=36BCF7" alt="Whicklian's GitHub Stats & Rating" />
+    <img height="185em" src="https://github-stats-extended.vercel.app/api?username=whicklian&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF&text_color=c9d1d9&ring_color=36BCF7" alt="Whicklian's GitHub Stats & Rating" />
   </a>
   <a href="https://github.com/whicklian">
     <img height="185em" src="https://github-stats-extended.vercel.app/api?username=whicklian&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=36BCF7&text_color=c9d1d9&ring_color=6C63FF&rank_icon=percentile" alt="Whicklian's Percentile Rank & Extended Stats" />
@@ -152,7 +152,7 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
     <img height="185em" src="https://github-readme-streak-stats.herokuapp.com/?user=whicklian&theme=tokyonight&hide_border=true&background=0D1117&ring=36BCF7&fire=6C63FF&currStreakLabel=36BCF7" alt="GitHub Streak" />
   </a>
   <a href="https://github.com/whicklian">
-    <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=whicklian&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&text_color=c9d1d9" alt="Top Languages" />
+    <img height="185em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=whicklian&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&text_color=c9d1d9" alt="Top Languages" />
   </a>
 </p>
 
@@ -242,18 +242,18 @@ CMake              1 repo       █░░░░░░░░░░░░░░░
 <!-- Dynamic Real-Time GitHub Repository Pin Cards -->
 <p align="center">
   <a href="https://github.com/whicklian/DataScience_whicklian">
-    <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=whicklian&repo=DataScience_whicklian&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="DataScience_whicklian" />
+    <img width="48%" src="https://github-stats-extended.vercel.app/api/pin/?username=whicklian&repo=DataScience_whicklian&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="DataScience_whicklian" />
   </a>
   <a href="https://github.com/whicklian/habit-island">
-    <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=whicklian&repo=habit-island&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="habit-island" />
+    <img width="48%" src="https://github-stats-extended.vercel.app/api/pin/?username=whicklian&repo=habit-island&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="habit-island" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/whicklian/AfyaSync">
-    <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=whicklian&repo=AfyaSync&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="AfyaSync" />
+    <img width="48%" src="https://github-stats-extended.vercel.app/api/pin/?username=whicklian&repo=AfyaSync&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="AfyaSync" />
   </a>
   <a href="https://github.com/whicklian/task-manager-api">
-    <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=whicklian&repo=task-manager-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="task-manager-api" />
+    <img width="48%" src="https://github-stats-extended.vercel.app/api/pin/?username=whicklian&repo=task-manager-api&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF" alt="task-manager-api" />
   </a>
 </p>
 

@@ -277,7 +277,7 @@ def compute_realtime_languages(repos: list[dict]) -> list[tuple[str, int, float]
             lang_repos[lang] = lang_repos.get(lang, 0) + 1
 
     svg = raw_fetch(
-        f"https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username={USERNAME}&langs_count=8"
+        f"https://github-stats-extended.vercel.app/api/top-langs/?username={USERNAME}&langs_count=8"
     )
     if svg:
         texts = [
