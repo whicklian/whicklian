@@ -86,13 +86,7 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <p align="center">
   <a href="https://github.com/whicklian">
-    <img src="https://my-hys0.onrender.com/" alt="Real-Time GitHub Telemetry & Live App Uptime HUD" width="100%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/whicklian">
-    <img src="./assets/realtime-hud.svg" alt="Real-Time GitHub Rating, Streaks & Language HUD" width="100%" />
+    <img src="https://my-hys0.onrender.com/" alt="Real-Time GitHub Telemetry HUD" width="100%" />
   </a>
 </p>
 
