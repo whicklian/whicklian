@@ -79,14 +79,20 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 | ⚡ **Live Telemetry** | 🔥 **Active / Best Streak** | 🏆 **Overall Rating** | 📊 **Last Year / Nov Velocity** |
 | :---: | :---: | :---: | :---: |
-| 🟢 **Synced** (`2026-11-25 19:34 EAT`) | **1 Days 🔥** *(Nov 25 - Nov 25)* | **Rank A+ (Top 8%)** *(MultiLang: S • Repos: 44)* | **1,108 Contribs** *(538+ Commits in Nov)* |
+| 🟢 **Synced** (`2026-11-26 03:47 EAT`) | **1 Days 🔥** *(Nov 25 - Nov 25)* | **Rank A+ (Top 8%)** *(MultiLang: S • Repos: 44)* | **1,108 Contribs** *(538+ Commits in Nov)* |
 
 </div>
 <!--END_SECTION:realtime_status-->
 
 <p align="center">
   <a href="https://github.com/whicklian">
-    <img src="./assets/realtime-hud.svg" alt="Real-Time GitHub Telemetry HUD" width="100%" />
+    <img src="https://my-hys0.onrender.com/" alt="Real-Time GitHub Telemetry & Live App Uptime HUD" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/whicklian">
+    <img src="./assets/realtime-hud.svg" alt="Real-Time GitHub Rating, Streaks & Language HUD" width="100%" />
   </a>
 </p>
 
@@ -212,7 +218,7 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <!--START_SECTION:waka-->
 ```text
-⚡ Live GitHub Codebase Telemetry (44 Total Repositories • 1,108 Contributions • Synced 2026-11-25 19:34 EAT)
+⚡ Live GitHub Codebase Telemetry (44 Total Repositories • 1,108 Contributions • Synced 2026-11-26 03:47 EAT)
 ────────────────────────────────────────────────────────────────────────────────────────────────────
 Python / Jupyter   2 repos      ███████████░░░░░░░░░░░░░░   42.93%
 JavaScript         9 repos      ███████░░░░░░░░░░░░░░░░░░   28.13%
