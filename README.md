@@ -77,9 +77,9 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 <!--START_SECTION:realtime_status-->
 <div align="center">
 
-| ⚡ **Live Telemetry** | 🔥 **Active / Best Streak** | 🏆 **Overall Rating** | 📊 **Last Year / Nov Velocity** |
+| ⚡ **Live Telemetry** | 🔥 **Current / Best Streak** | 🏆 **GitHub Rating** | 📊 **Contributions & Repos** |
 | :---: | :---: | :---: | :---: |
-| 🟢 **Synced** (`2026-11-26 03:48 EAT`) | **1 Days 🔥** *(Nov 25 - Nov 25)* | **Rank A+ (Top 8%)** *(MultiLang: S • Repos: 44)* | **1,108 Contribs** *(538+ Commits in Nov)* |
+| 🟢 **Synced** (`2026-11-26 03:55 EAT`) | **2d 🔥** *(Best: 5d • Sep 21 - Sep 25)* | **Rank C (Top 93.2%)** *(MultiLang: S • Repos: A)* | **169 Contribs** *(165 Commits • 38 Public Repos)* |
 
 </div>
 <!--END_SECTION:realtime_status-->
@@ -212,14 +212,14 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <!--START_SECTION:waka-->
 ```text
-⚡ Live GitHub Codebase Telemetry (44 Total Repositories • 1,108 Contributions • Synced 2026-11-26 03:48 EAT)
+⚡ Live GitHub Codebase Telemetry (38 Public Repositories • 169 Contributions • Synced 2026-11-26 03:55 EAT)
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-Python / Jupyter   2 repos      █████████░░░░░░░░░░░░░░░░   34.87%
-JavaScript         9 repos      ██████░░░░░░░░░░░░░░░░░░░   23.57%
-TypeScript         2 repos      ███░░░░░░░░░░░░░░░░░░░░░░   13.61%
-CSS                4 repos      ███░░░░░░░░░░░░░░░░░░░░░░   11.52%
+Jupyter Notebook   1 repo       █████████░░░░░░░░░░░░░░░░   34.87%
+JavaScript         8 repos      ██████░░░░░░░░░░░░░░░░░░░   23.57%
+TypeScript         3 repos      ███░░░░░░░░░░░░░░░░░░░░░░   13.61%
+CSS                2 repos      ███░░░░░░░░░░░░░░░░░░░░░░   11.52%
 HTML               5 repos      ██░░░░░░░░░░░░░░░░░░░░░░░    7.32%
-Python             2 repos      █░░░░░░░░░░░░░░░░░░░░░░░░    4.12%
+Python             1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    4.12%
 C++                1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.64%
 Dart               1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.35%
 ```
