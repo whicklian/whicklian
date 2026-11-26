@@ -180,7 +180,7 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <p align="center">
   <a href="https://github.com/whicklian">
-    <img src="https://github-profile-trophy-eight.vercel.app/?username=whicklian&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+    <img src="./assets/cards/trophies.svg" alt="GitHub Trophies" />
   </a>
 </p>
 

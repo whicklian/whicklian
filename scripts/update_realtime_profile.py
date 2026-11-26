@@ -191,6 +191,7 @@ def fetch_and_sync_all_cards(
     pt_url = f"https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username={USERNAME}&theme=tokyonight&utcOffset=3"
     rpl_url = f"https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username={USERNAME}&theme=tokyonight"
     mcl_url = f"https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={USERNAME}&theme=tokyonight"
+    trophy_url = f"https://github-profile-trophy-eight.vercel.app/?username={USERNAME}&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15"
 
     stats_svg = raw_fetch(stats_url)
     pct_svg = raw_fetch(pct_url)
@@ -200,6 +201,7 @@ def fetch_and_sync_all_cards(
     pt_svg = raw_fetch(pt_url)
     rpl_svg = raw_fetch(rpl_url)
     mcl_svg = raw_fetch(mcl_url)
+    trophy_svg = raw_fetch(trophy_url)
 
     # Determine unified real-time commit & contribution counts (never mismatched across cards)
     parsed_commits = []
@@ -286,6 +288,29 @@ def fetch_and_sync_all_cards(
             pd_svg,
         )
 
+    # Patch trophies.svg so Commits, Repositories, Followers, and Stars match real live totals
+    if trophy_svg:
+        trophy_svg = re.sub(
+            r"(>Commits</text>\s*<text[^>]*>[^<]+</text>\s*<text[^>]*>)\d+pt(</text>)",
+            rf"\g<1>{real_commits}pt\g<2>",
+            trophy_svg,
+        )
+        trophy_svg = re.sub(
+            r"(>Repositories</text>\s*<text[^>]*>[^<]+</text>\s*<text[^>]*>)\d+pt(</text>)",
+            rf"\g<1>{public_repos}pt\g<2>",
+            trophy_svg,
+        )
+        trophy_svg = re.sub(
+            r"(>Followers</text>\s*<text[^>]*>[^<]+</text>\s*<text[^>]*>)\d+pt(</text>)",
+            rf"\g<1>{followers}pt\g<2>",
+            trophy_svg,
+        )
+        trophy_svg = re.sub(
+            r"(>Stars</text>\s*<text[^>]*>[^<]+</text>\s*<text[^>]*>)\d+pt(</text>)",
+            rf"\g<1>{total_stars}pt\g<2>",
+            trophy_svg,
+        )
+
     # Write all synced SVGs to assets/cards/
     card_files = {
         "stats-rating.svg": stats_svg,
@@ -296,6 +321,7 @@ def fetch_and_sync_all_cards(
         "productive-time.svg": pt_svg,
         "repos-per-lang.svg": rpl_svg,
         "most-commit-lang.svg": mcl_svg,
+        "trophies.svg": trophy_svg,
     }
     for filename, content in card_files.items():
         if content and "<svg" in content:
