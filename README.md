@@ -79,7 +79,7 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 | ⚡ **Live Telemetry** | 🔥 **Current / Best Streak** | 🏆 **GitHub Rating** | 📊 **Contributions & Repos** |
 | :---: | :---: | :---: | :---: |
-| 🟢 **Synced** (`2026-11-26 03:55 EAT`) | **2d 🔥** *(Best: 5d • Sep 21 - Sep 25)* | **Rank C (Top 93.2%)** *(MultiLang: S • Repos: A)* | **169 Contribs** *(165 Commits • 38 Public Repos)* |
+| 🟢 **Synced** (`2026-11-26 04:00 EAT`) | **2d 🔥** *(Best: 5d • Oct 13 - Oct 17)* | **Rank C (Top 93.3%)** *(MultiLang: S • Repos: A)* | **172 Contribs** *(168 Commits • 38 Public Repos)* |
 
 </div>
 <!--END_SECTION:realtime_status-->
@@ -133,40 +133,40 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 <!-- Row 1: Rating Card (Classic) + Global Percentile Rating Card (Extended) -->
 <p align="center">
   <a href="https://github.com/whicklian">
-    <img height="185em" src="https://github-stats-extended.vercel.app/api?username=whicklian&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=6C63FF&text_color=c9d1d9&ring_color=36BCF7" alt="Whicklian's GitHub Stats & Rating" />
+    <img height="185em" src="./assets/cards/stats-rating.svg" alt="Whicklian's GitHub Stats & Rating" />
   </a>
   <a href="https://github.com/whicklian">
-    <img height="185em" src="https://github-stats-extended.vercel.app/api?username=whicklian&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=36BCF7&text_color=c9d1d9&ring_color=6C63FF&rank_icon=percentile" alt="Whicklian's Percentile Rank & Extended Stats" />
+    <img height="185em" src="./assets/cards/stats-percentile.svg" alt="Whicklian's Percentile Rank & Extended Stats" />
   </a>
 </p>
 
 <!-- Row 2: Live Streak Stats + Top Languages -->
 <p align="center">
   <a href="https://github.com/whicklian">
-    <img height="185em" src="https://github-readme-streak-stats.herokuapp.com/?user=whicklian&theme=tokyonight&hide_border=true&background=0D1117&ring=36BCF7&fire=6C63FF&currStreakLabel=36BCF7" alt="GitHub Streak" />
+    <img height="185em" src="./assets/cards/streak.svg" alt="GitHub Streak" />
   </a>
   <a href="https://github.com/whicklian">
-    <img height="185em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=whicklian&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&text_color=c9d1d9" alt="Top Languages" />
+    <img height="185em" src="./assets/cards/top-langs.svg" alt="Top Languages" />
   </a>
 </p>
 
 <!-- Row 3: Contribution Activity Graph & Profile Overview -->
 <p align="center">
   <a href="https://github.com/whicklian">
-    <img width="85%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=whicklian&theme=tokyonight" alt="Activity Graph & Profile Details" />
+    <img width="85%" src="./assets/cards/profile-details.svg" alt="Activity Graph & Profile Details" />
   </a>
 </p>
 
 <!-- Row 4: Deep-Dive Telemetry (Productive Time, Repos by Language, Commits by Language) -->
 <p align="center">
   <a href="https://github.com/whicklian">
-    <img height="175em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=whicklian&theme=tokyonight&utcOffset=3" alt="Productive Coding Time (EAT UTC+3)" />
+    <img height="175em" src="./assets/cards/productive-time.svg" alt="Productive Coding Time (EAT UTC+3)" />
   </a>
   <a href="https://github.com/whicklian">
-    <img height="175em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=whicklian&theme=tokyonight" alt="Repos Per Language" />
+    <img height="175em" src="./assets/cards/repos-per-lang.svg" alt="Repos Per Language" />
   </a>
   <a href="https://github.com/whicklian">
-    <img height="175em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=whicklian&theme=tokyonight" alt="Most Commit Language" />
+    <img height="175em" src="./assets/cards/most-commit-lang.svg" alt="Most Commit Language" />
   </a>
 </p>
 
@@ -212,16 +212,15 @@ motto:       "From MMUST to the World — Code, Create, Collaborate."
 
 <!--START_SECTION:waka-->
 ```text
-⚡ Live GitHub Codebase Telemetry (38 Public Repositories • 169 Contributions • Synced 2026-11-26 03:55 EAT)
+⚡ Live GitHub Codebase Telemetry (38 Public Repositories • 172 Contributions • Synced 2026-11-26 04:00 EAT)
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-Jupyter Notebook   1 repo       █████████░░░░░░░░░░░░░░░░   34.87%
-JavaScript         8 repos      ██████░░░░░░░░░░░░░░░░░░░   23.57%
-TypeScript         3 repos      ███░░░░░░░░░░░░░░░░░░░░░░   13.61%
-CSS                2 repos      ███░░░░░░░░░░░░░░░░░░░░░░   11.52%
-HTML               5 repos      ██░░░░░░░░░░░░░░░░░░░░░░░    7.32%
-Python             1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    4.12%
-C++                1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.64%
-Dart               1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    2.35%
+TypeScript         3 repos      ███████████████░░░░░░░░░░   61.00%
+JavaScript         8 repos      ███████░░░░░░░░░░░░░░░░░░   27.69%
+CSS                2 repos      ██░░░░░░░░░░░░░░░░░░░░░░░    7.61%
+HTML               5 repos      █░░░░░░░░░░░░░░░░░░░░░░░░    1.81%
+Jupyter Notebook   1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    1.24%
+Python             1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    0.59%
+Java               1 repo       █░░░░░░░░░░░░░░░░░░░░░░░░    0.06%
 ```
 <!--END_SECTION:waka-->
 
