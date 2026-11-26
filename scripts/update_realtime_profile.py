@@ -288,29 +288,6 @@ def fetch_and_sync_all_cards(
             pd_svg,
         )
 
-    # Patch trophies.svg so Commits, Repositories, Followers, and Stars match real live totals
-    if trophy_svg:
-        trophy_svg = re.sub(
-            r"(>Commits</text>\s*<text[^>]*>[^<]+</text>\s*<text[^>]*>)\d+pt(</text>)",
-            rf"\g<1>{real_commits}pt\g<2>",
-            trophy_svg,
-        )
-        trophy_svg = re.sub(
-            r"(>Repositories</text>\s*<text[^>]*>[^<]+</text>\s*<text[^>]*>)\d+pt(</text>)",
-            rf"\g<1>{public_repos}pt\g<2>",
-            trophy_svg,
-        )
-        trophy_svg = re.sub(
-            r"(>Followers</text>\s*<text[^>]*>[^<]+</text>\s*<text[^>]*>)\d+pt(</text>)",
-            rf"\g<1>{followers}pt\g<2>",
-            trophy_svg,
-        )
-        trophy_svg = re.sub(
-            r"(>Stars</text>\s*<text[^>]*>[^<]+</text>\s*<text[^>]*>)\d+pt(</text>)",
-            rf"\g<1>{total_stars}pt\g<2>",
-            trophy_svg,
-        )
-
     # Write all synced SVGs to assets/cards/
     card_files = {
         "stats-rating.svg": stats_svg,
